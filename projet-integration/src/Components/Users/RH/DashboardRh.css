@@ -1,0 +1,40 @@
+.wiou {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; /* Ensures children stretch to full height */
+}
+
+.p {
+
+    width: 18rem;
+    display: flex;
+    height: 100%;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.m {
+    flex-grow: 1; 
+    height: 100%; 
+}
+
+.woiu {
+    height: 73px;
+    display: flex;
+    justify-content :end;
+    background: linear-gradient( #302B63, #302B63, #24243E);
+    color: white;
+
+}
+
+.pContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.pContent button {
+    margin :15px 
+}

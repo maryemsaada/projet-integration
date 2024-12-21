@@ -1,0 +1,160 @@
+.wiou {
+    display: flex;
+    flex-direction: row;
+    height: 100vh; /* Full viewport height */
+}
+
+.p {
+    width: 18rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    padding: 50px;
+    height: 100%; /* Make the sidebar extend to the full height of the screen */
+    position: fixed; /* Make the sidebar fixed so it stays in place when scrolling */
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.pContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.pContent button {
+    background: #ffffff;
+    color: rgb(52, 30, 79);
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.m {
+    flex-grow: 1;
+    margin-left: 18rem; 
+    height: 100%; 
+}
+
+.woiu {
+    height: 73px;
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(#302b63, #302b63, #24243e);
+    color: white;
+}
+
+.woiu h4 {
+    margin: 0;
+    font-size: 18px;
+    padding-right: 2em;
+}
+
+.add-commande-container {
+    background: linear-gradient(90deg, #b8b4e5, #6b6791, #6666a8);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: 600px; 
+    margin-top: 100px; 
+}
+
+.add-commande-form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+    justify-content: space-between; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #000;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fffefe;
+    font-size: 14px;
+    width: 60%;
+}
+
+input:focus {
+    border: 1px solid #302b63;
+    box-shadow: 0 0 5px rgba(48, 43, 99, 0.7);
+}
+
+.submit-btn {
+    background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    padding: 15px;
+    margin: 0 auto; 
+}
+
+.submit-btn:hover {
+    background: linear-gradient(90deg, #302b63, #24243e);
+}
+
+.delete-btn {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.delete-btn:hover {
+    background: #d32f2f;
+}

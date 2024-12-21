@@ -1,0 +1,150 @@
+.wiou {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  
+  .p {
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    padding: 20px; /* Added padding for better alignment */
+  }
+  
+  .m {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .woiu {
+    height: 73px;
+    display: flex;
+    justify-content: end;
+    background: linear-gradient(#302b63, #302b63, #24243e);
+    color: white;
+  }
+  
+  .pContent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: 10px;
+  }
+  
+  .profile-info {
+    text-align: left;
+  }
+  
+  .profile-info h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #cccccc;
+  }
+  
+  .sidebar-content button {
+    background: #302b63;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  
+  /* Table Section */
+  .table-container {
+    padding: 20px;
+  }
+  
+  .table-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the left */
+    gap: 15px; /* Space between the button and input */
+    margin-bottom: 20px;
+  }
+  
+  .table-container .add-btn {
+    background: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .table-container .add-btn:hover {
+    background: linear-gradient(90deg, #302b63, #24243e);
+  }
+  
+  .table-container .search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .table-container .search-input:focus {
+    border: 1px solid #302b63;
+    box-shadow: 0 0 5px rgba(48, 43, 99, 0.7);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: linear-gradient(to bottom, #f9f9f9, #eeeeee);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  table th {
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: rgba(48, 43, 99, 0.1);
+  }
+  
+  table tr:hover {
+    background-color: rgba(48, 43, 99, 0.2);
+    cursor: pointer;
+  }
+  
